@@ -1,0 +1,47 @@
+header{position: fixed; top: 0; left: 0;}
+.submenu{position: fixed; top: 20px; right: 35%; width: 70px; height: 70px; line-height: 70px; text-align: center; background: #fff;}
+
+#submain{position: fixed; top: 0; left: 0; height: 100vh; width: 100%; background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}
+#submain img{position: fixed; top: 30%; width: 50%;}
+
+.casper_blue,
+.casper_ivory,
+.casper_orange,
+.casper_white,
+.casper_gray{display: none;}
+
+#choose{position: absolute; top: 0; right: 0; width: 35%; padding: 0 0 50px 50px; background: #fff; box-shadow: 0 0 10px rgba(5, 5, 5, 0.4); }
+#choose h3{font-size: 1.6rem; margin:100px 0 20px;}
+#choose>ul>li>div{display: flex; margin-bottom: 10px; width: 360px; height: 50px; line-height: 50px;  border: 1px solid #ddd; text-align: center; overflow: hidden; cursor: pointer;}
+.box_left{width: 150px;}
+.box_right{padding-left: 20px;}
+
+.outside_color{display: flex;}
+.outside_color p{width: 60px; height: 60px; border-radius: 50%; margin-right: 1.6%; }
+.outside_color .white{border: 2px solid #ddd;}
+
+#choose li:nth-child(4) div{margin-bottom: 20px;}
+#choose li:nth-child(5){height: 700px;}
+
+.option div{display: inline-block; width: 47%; margin-right: 2%; margin-bottom: 6%; border: 1px solid #ddd; text-align: center;}
+.option div img{width: 100%;}
+.option>div>p:first-child{padding: 10px 0;}
+
+
+
+
+.total{position: fixed; bottom: 0; right: 0; width: 35%; z-index: 999;  font-size: 1.2rem;}
+.total>div{display: flex; justify-content: space-around; height: 70px;line-height: 70px;}
+.price{background: #000; color: #fff; }
+.next{ background: #fff;  text-align: center;}
+.next>div{float: left; width: 50%; }
+.next>div:first-child{border-right: 1px solid #000;}
+
+/*공통레이아웃 반응형 적용*/
+@media screen and (max-width:1420px){
+    
+}
+
+@media screen and (max-width:640px) {
+    #choose{text-align: center;}
+}

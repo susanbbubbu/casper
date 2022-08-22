@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>현대자동차 CASPER</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/showroom.js"></script>
+</head>
+<body>    
+    <section id="showroom_view">
+        
+        <ul class="tab_content_show">
+            <li>
+                <video src="images/showroom/clip_01.webm" muted autoplay></video>
+            </li>
+            <li>
+                <video src="images/showroom/clip_02.mp4" muted autoplay></video>
+            </li>
+            <li>
+                <video src="images/showroom/clip_03.mp4" muted autoplay></video>
+            </li>
+            <li>
+                <video src="images/showroom/clip_04.mp4" muted autoplay></video>
+            </li>
+            <li>
+                <video src="images/showroom/clip_05.mp4" muted autoplay></video>
+            </li>
+            <li>
+                <video src="images/showroom/clip_06.mp4" muted autoplay></video>
+            </li>
+            <li>
+                <video src="images/showroom/clip_07.mp4" muted autoplay></video>
+            </li>            
+        </ul>
+        <ul class="tab_name_show">
+            <li>전체</li>
+            <li>외관컬러</li>
+            <li>외관디자인</li>
+            <li>내부컬러 및 디자인</li>
+            <li>생활 속 캐스퍼</li>
+            <li>취미생활까지 함께</li>
+            <li>주행 안전 장치</li>                        
+            <li><a href="index.html"><i class="xi-home-o"></i> 홈으로</a></li>                        
+        </ul>
+        <div class="info_sentence">영상 내 차량 모델과 주행 경험은 실제와 다를 수 있습니다.</div>
+    </section>
+        
+    <style>
+        .logo{z-index: 999;}
+        #showroom_view{position: relative;}
+        .tab_name_show{position: absolute; top: 5%; right: 5%; text-align: center;}
+        .tab_name_show li{cursor: pointer; border: 1px solid #fff; height: 60px; line-height: 60px; margin-bottom: 20px; padding: 0 10px;  color: #fff; font-size: 1.2rem; font-weight: 600;}
+        .tab_content_show{position: absolute; top: 0; left:0;}
+        .tab_name_show a{color: #fff;}
+        .info_sentence{position: absolute; bottom: 5%; left: 50%; transform: translateX(-50%); color: #fff; font-weight: 600;}
+    </style>
+</body>
+</html>
